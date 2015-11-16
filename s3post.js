@@ -75,8 +75,10 @@ S3Form.prototype.addS3CredientalsFields = function(fields, awsConfig){
 
 	fields.push(hiddenField(
 		SIGNATURE_FIELD_NAME, this.policy.generateSignature(awsConfig.secretAccessKey)));
+				
 	return fields;
 }
+
 
 
 var hiddenField = function(fieldName, value) {

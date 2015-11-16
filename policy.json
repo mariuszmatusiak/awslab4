@@ -3,6 +3,9 @@
     				 {"bucket": "mariusz.matusiak"}, 
     				 {"acl": "private"},
     				 {"success_action_redirect": "http://localhost:8081"},
+					 {"x-amz-meta-firstname": "Mariusz"},
+					 {"x-amz-meta-lastname": "Matusiak"},
+					 {"x-amz-meta-device": "DarthPC"},
     				 ["content-length-range", 0, 1048576]
     				]   
 }
